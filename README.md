@@ -1,35 +1,35 @@
 ## GIt Rebase Vs Git Merge 
 # View The Branches 
-    git branch
+    - git branch
 # Delete The Branches
-   git branch -d branch_name
-# get Log detials(All tne commits that have been performed on this master branch)
-  git log --oneline
+   - git branch -d branch_name
+# get Log details(All tne commits that have been performed on this master branch)
+ - git log --oneline
 # git checkout -b feature
 
-##### GIT Rebase
-Rebase is an action in git that allows us to rewrite commits from one branch onto another branch.
-Esentially, Git is delteing commits from one branch and adding them onto another
-git pull
-git checkout -b dev
-nano index.html(do some modifaction)
-git status
-git add index.html
-git commit -m "changed"
-git checkout master
-# editing again 
-emacs index.html
-git add .
-git commit -m "title changed to home"
-### Make more changes to master index.html
-emacs index.html
-git add
-git commit -m "Second change done in master file"
+## GIT Rebase
+- Rebase is an action in git that allows us to rewrite commits from one branch onto another branch.
+- Esentially, Git is delteing commits from one branch and adding them onto another
+- git pull
+- git checkout -b dev
+- nano index.html(do some modifaction)
+- git status
+- git add index.html
+- git commit -m "changed"
+- git checkout master
+- editing again 
+- emacs index.html
+- git add .
+- git commit -m "title changed to home"
+- Make more changes to master index.html
+- emacs index.html
+- git add
+- git commit -m "Second change done in master file"
 ## Performing the rebase
-git checkout dev
-I am saying perform the rebase from the master branch
-Before doing that I ma agin swtiching back to master branch
-git log --oneline
+- git checkout dev
+- I am saying perform the rebase from the master branch
+- Before doing that I ma agin swtiching back to master branch
+- git log --oneline
 ## Changes from msater log
 
 4fcf21e (HEAD -> master) change home to home_1
@@ -46,7 +46,7 @@ c222e59 title chaged
 1aae850 this is my first commit
 
 # Now from dev brach I will perform rebase
- git rebase master
+ - git rebase master
 
  #### Why rebase
   - The primary reason for rebasing is to maintain a linear project history
