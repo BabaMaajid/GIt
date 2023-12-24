@@ -45,7 +45,7 @@
 - c222e59 title chaged
 - 1aae850 this is my first commit
 
-# Now from dev brach I will perform rebase
+# Now from dev branch I will perform rebase
  - git rebase master
 
  #### Why rebase
