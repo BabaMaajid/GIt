@@ -30,20 +30,20 @@
 - I am saying perform the rebase from the master branch
 - Before doing that I ma agin swtiching back to master branch
 - git log --oneline
-## Changes from msater log
+## Changes from master branch
 
-4fcf21e (HEAD -> master) change home to home_1
-82ac023 tiltle changet to home
-ec2abc4 home page updated to home
-c222e59 title chaged
-1aae850 this is my first commit
+- 4fcf21e (HEAD -> master) change home to home_1
+- 82ac023 tiltle changet to home
+- ec2abc4 home page updated to home
+- c222e59 title chaged
+- 1aae850 this is my first commit
 
 ## Changes from dev branch
 
-1ddf9c (HEAD -> dev) title changed to name
-ec2abc4 home page updated to home
-c222e59 title chaged
-1aae850 this is my first commit
+- 1ddf9c (HEAD -> dev) title changed to name
+- ec2abc4 home page updated to home
+- c222e59 title chaged
+- 1aae850 this is my first commit
 
 # Now from dev brach I will perform rebase
  - git rebase master
@@ -52,6 +52,7 @@ c222e59 title chaged
   - The primary reason for rebasing is to maintain a linear project history
  - Unnecesary Merge commit is not required
 
+**Note**  Never rebase commits once they have been pushed to public repository. the rebase would replace the old commits with the new ones and it would look like that part of the project history abruptly vnaishes
 
 
 
