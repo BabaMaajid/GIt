@@ -3,9 +3,9 @@
     - git branch
 # Delete The Branches
    - git branch -d branch_name
-# get Log details(All tne commits that have been performed on this master branch)
+# Git Log details(All tne commits that have been performed on this master branch)
  - git log --oneline
-# git checkout -b feature
+# Git checkout -b feature
 
 ## GIT Rebase
 - Rebase is an action in git that allows us to rewrite commits from one branch onto another branch.
