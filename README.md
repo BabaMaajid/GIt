@@ -65,10 +65,25 @@
 
 -  for hands on create new repository
   
--  
--  
+# AWS Code Commit Security hands on
+- Go to IAM dashboard
+- Go to  User groups
+- Give user  group name
+- Attach a Policy
+- Create USer group
+- now select user group
+- go to permissions
+   - Add Permissions
+     -create inline policy
+       - clickJSON
+       - Paste file
+       - Review Policy
+       - Name
+       - Create Policy
+       - 
+       - 
+    
 - 
-
 
 
 
