@@ -55,6 +55,21 @@
 **Note**  Never rebase commits once they have been pushed to public repository. the rebase would replace the old commits with the new ones and it would look like that part of the project history abruptly vnaishes
 
 
+# GIT STASH
+- git stash save "save message"
+- git stash list #lsits the stashed changes.
+- git stash apply <stashid>
+-  git stash pop # Apply the top changes to my file
+-  git stash drop <stashid> droping the stash
+-  git stash clear #dropping all stashes
+
+-  for hands on create new repository
+  
+-  
+-  
+- 
+
+
 
 
 
