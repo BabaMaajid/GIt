@@ -4,7 +4,7 @@
      - Develeopers practicing continuous integration merge their changes back to the main branch as often as possible.
      - Developers chages are validated by creating a build anf runing automated tests agianst the build.
      - This avoids integration challenges that can heppen when waiting for release day to metrge changes into the release branch.
-     - This puts a great emphasis on testing automation to check that the application is not broken whenevr new commits are integrated into the main branch.extension of c - ### -### - - ### Continuous Delivery
+     - This puts a great emphasis on testing automation to check that the application is not broken whenevr new commits are integrated into the main branch.extension of c - ### -### -   - ### Continuous Delivery
       - It is an extension of continuous integration since it automatically deploys all code changes to a testing and /or production environment after the build stage.
       - This means that on top of automated testing you have an automated realese process and you can deploy your application  any time by clicking a button.
       -  In theory, with continuous delivery we can decide to release dailay,weekly,fortnight or what ever suits our business requirements.
