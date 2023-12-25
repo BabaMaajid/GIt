@@ -16,7 +16,8 @@
       - Developers can focus on building software, and they see their work go live minutes after they have finished working on it.
 
   ![](CICD(1).jpg)
-   
+  ## ENVIRONMENTS FOR APPLICATION
+      ![](ENV.jpg)
     ## GIt Rebase Vs Git Merge 
 ## View The Branches 
     - git branch
