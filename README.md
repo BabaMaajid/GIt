@@ -10,8 +10,12 @@
       - This means that on top of automated testing you have an automated realese process and you can deploy your application  any time by clicking a button.
       -  In theory, with continuous delivery we can decide to release dailay,weekly,fortnight or what ever suits our business requirements.
       -  IF we want to get the benifits of continuous deliver, we should deploy to the production as early as possible to make sure that we release samll batches that are easy to troubleshoot in case of a problem.
-
-## GIt Rebase Vs Git Merge 
+- ### Continuous Deployment
+      - Continuous deplyomnet goes one step further than continuous delivery. with this practice, every chage that passes all stages of your production pipeline is released in your customers. There's no humna intervnetion, and only a failed test will prevent a new change to be deployed to production.
+      - Continuous deployment is an excellent way to accelerate the feedback loop with your customers and take pressure off the team as therre isn't a release day anymore.
+      - Developers can focus on building software, and they see their work go live minutes after they have finished working on it.
+   
+    ## GIt Rebase Vs Git Merge 
 ## View The Branches 
     - git branch
 ## Delete The Branches
