@@ -1,11 +1,19 @@
+## CI-CD Pipeline
+**Most fundamental concept in the automated software develeopement**
+- ### Continuous Integration
+     - Develeopers practicing continuous integration merge their changes back to the main branch as often as possible.
+     - Developers chages are validated by creating a build anf runing automated tests agianst the build.
+     - This avoids integration challenges that can heppen when waiting for release day to metrge changes into the release branch.
+     - This puts a great emphasis on testing automation to check that the application is not broken whenevr new commits are integrated into the main branch.
+
 ## GIt Rebase Vs Git Merge 
-# View The Branches 
+## View The Branches 
     - git branch
-# Delete The Branches
+## Delete The Branches
    - git branch -d branch_name
-# Git Log details(All tne commits that have been performed on this master branch)
+## Git Log details(All tne commits that have been performed on this master branch)
  - git log --oneline
-# Git checkout -b feature
+## Git checkout -b feature
 
 ## GIT Rebase
 - Rebase is an action in git that allows us to rewrite commits from one branch onto another branch.
@@ -65,7 +73,7 @@
 
 -  for hands on create new repository
   
-# AWS Code Commit Security hands on
+## AWS Code Commit Security hands on
 - Go to IAM dashboard
 - Go to  User groups
 - Give user  group name
