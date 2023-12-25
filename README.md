@@ -15,7 +15,7 @@
       - Continuous deployment is an excellent way to accelerate the feedback loop with your customers and take pressure off the team as therre isn't a release day anymore.
       - Developers can focus on building software, and they see their work go live minutes after they have finished working on it.
 
-  !(CICD.JPEG)
+  !(CICD(1).jpg)
    
     ## GIt Rebase Vs Git Merge 
 ## View The Branches 
