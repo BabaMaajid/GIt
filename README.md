@@ -29,7 +29,7 @@
 
 ## GIT Rebase
 - Rebase is an action in git that allows us to rewrite commits from one branch onto another branch.
-- Esentially, Git is delteing commits from one branch and adding them onto another
+- Esentially, Git is deleteing commits from one branch and adding them onto another
 - git pull
 - git checkout -b dev
 - nano index.html(do some modifaction)
