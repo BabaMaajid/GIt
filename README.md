@@ -1,3 +1,16 @@
+# AWS cloud
+# Agenda of The Section
+- Creation of AWS Account
+- Setting Up of Account(IAM User and MFA)
+- Configure CLI
+- Hnads On-IAM
+- IAM Policy Generator
+- S3 Bucket(Creation ,Versioning,Lifecycle Management)
+- EC2 Instances(Launch and SSH)
+# Creation of AWS Account
+- Go to [https://aws.amazon.com/free/]
+
+- 
 ## CI-CD Pipeline
 **Most fundamental concept in the automated software develeopement**
 - ### Continuous Integration
