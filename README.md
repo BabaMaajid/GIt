@@ -1,3 +1,5 @@
+
+
 # AWS cloud
 # Agenda of The Section
 - Creation of AWS Account
@@ -8,7 +10,10 @@
 - S3 Bucket(Creation ,Versioning,Lifecycle Management)
 - EC2 Instances(Launch and SSH)
 # Creation of AWS Account
-- Go to [https://aws.amazon.com/free/]
+- Go to (https://aws.amazon.com/free/) for creation of the account(Root user emailid)
+- 
+- 
+
 
 - 
 ## CI-CD Pipeline
@@ -116,7 +121,36 @@
        - 
        - 
     
-- 
+# YAML Files:
+## YAML
+  - Y: YAML
+  - A : Ain't
+  - M: Markup
+  - L: Language
+- YAML is a data serailization language that ia often used for configuration files
+- Popular Programming langauge as it is human-readable and easy to understand.
+- It can also be used in conjunction with other progrmaming lanuages.
+
+![image](https://github.com/BabaMaajid/GIt/assets/7793038/8246b20e-1835-423b-a8dc-32a95bd3ca63)
+|:--:| 
+
+
+## YAML Syntax
+- Uses Python-style indentation to indicate nesting.
+- Whitespaces for indentation & Tab are not allowed.
+- No Format Symbol like braces, square, brackets, or quotation tags.
+- Uses .yml or .yaml extension.
+**Best practice is to use small case for keys**
+## YAML Structure 
+- Structure of a YAML file is a map or a list.
+- Maps allows us to assocaite key-value pairs.
+- Keys are unique, and the order doesn't matter.
+- A mapin YAML needs to be resolved before it can be closed, and a new map is created.
+## YAML Data Types
+- Scalars(Strings,integers,dates,numbers or Boolean).
+- A list(collection of items) and it can start with a dash, with indentaion separating the parent.
+- New Map can be created by either increasing indentation level or by resolving the previous map.
+
 
 
 
