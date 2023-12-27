@@ -150,7 +150,7 @@
 - Scalars(Strings,integers,dates,numbers or Boolean).
 - A list(collection of items) and it can start with a dash, with indentaion separating the parent.
 - New Map can be created by either increasing indentation level or by resolving the previous map.
-# AWS COdeBuild
+# AWS CodeBuild
 - Fully managed continuous integration service that compiles source code, run tests, and produces software packages that are ready to deploy
 - No need to provision, manage, nad scale our own build servers
 - CodeBuild scales continuous and processes multiple builds concurrently, so the builds are not left waiting in a queue
