@@ -155,9 +155,16 @@
 - No need to provision, manage, nad scale our own build servers
 - CodeBuild scales continuous and processes multiple builds concurrently, so the builds are not left waiting in a queue
 - Get started uding prepackaged build environments or allows aws to create custom build environments
-- Charged by the minute for the compute resources you use.
-  
+- Charged by minute for the compute resources you use.
+# AWS Code Build Works
+- A Build Project includes information about how to run a build, including where to get the source code,which build environment to use,which build commnands to run ,and where to store the build output. A build environment represents a combination of OS , Programming language,runtime,tools that codeBuild uses to run.
+- CodeBuild uses the build Project to create the environment.
+- CodeBuild downloads the source code into the build envirinment and then uses the builkd specifications(buildspec), as defined in the project or included directly in the source code. A Buildspec is a collection of build commands and related settings,in YAML Format, that CodeBuild uses to run a build output.
+- if there is any  build output,  the build environment uploads its output to an S3 bucket.
+- The build environment sends information to CodeBuild and Amazon CloudWatch logs.
+- While the build is running , we can see the AWS code build console,AWS CLI or AWS SDKs to get summarised build information from CodeBuild and detailed build information from Amazon Cloudwatchlogs
 
+![image](https://github.com/BabaMaajid/GIt/assets/7793038/6b4a5c2f-8dd8-492f-8e6b-8c101f952d59)
 
 
 
