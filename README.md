@@ -168,6 +168,18 @@
 
 # Aws Event Bridge
 -  Amazon EventBridge is a fully managed event bus service provided by Amazon Web Services (AWS). It simplifies the building and management of event-driven architectures.
+-  Go this service and create rules
+   - Give rule name
+   - select Rule Type with an event pattern or  Schedule
+   - -next
+   -  select event source
+   -  Creation method **use pattern from**
+   -  event pattern select **AWS services, Codecommit, ALLevents**
+   -  Next
+   -  select Target (AWS resource CodeBuildProject)
+   -  Project ARN
+        - go to codebuild
+        - build details(ARN)
 
 
 
