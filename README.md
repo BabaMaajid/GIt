@@ -199,8 +199,12 @@
     - Blue Green : Gradually replace existing instance(blue) with Instances running new version(green)
 **Deployment Group or Autoscaling group**: This will help us to identify which server to place i.e to which set of E2 services code will be pushed
  - logical identification of my indiviuall Ec2 instances.
-**Hand ON CODE DEPLOY**
-1. 
-
+   
+## Hand ON CODE DEPLOY
+1.  Create EC2 with IAM Roles attached (S3) with tags assigned.
+2.  Create Application on code Deploy
+3.  Push code Revision to S3 Bucket
+4.  Create Deployment Group and Validate CodeDeploy Agent installed with SSM
+5.  Deploy the application to EC2 insatnces
   
 
