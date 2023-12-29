@@ -166,6 +166,10 @@
 
 ![image](https://github.com/BabaMaajid/GIt/assets/7793038/6b4a5c2f-8dd8-492f-8e6b-8c101f952d59)
 
+# Aws Event Bridge
+-  Amazon EventBridge is a fully managed event bus service provided by Amazon Web Services (AWS). It simplifies the building and management of event-driven architectures.
+
+
 
 
 
