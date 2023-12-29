@@ -17,6 +17,10 @@
 
 - 
 ## CI-CD Pipeline
+- A Practice where code changes are automatically built,tested and getting it ready for a production release.
+- Automate build and test
+- Deploy tto pro environmnet sfely without business downtimme
+- Faster Deployment
 **Most fundamental concept in the automated software develeopement**
 - ### Continuous Integration
      - Develeopers practicing continuous integration merge their changes back to the main branch as often as possible.
@@ -180,8 +184,9 @@
    -  Project ARN
         - go to codebuild
         - build details(ARN)
-
-
-
-
+# AWS CodeDeploy
+- Fully managed Deployment service
+- Can automate Software Deployments on Amazon EC2,AWS Fargate,AWS Lambda and On-premise servers.
+- Avoid downtime
+- Provides Autoscaling as well as Rollback support
 
