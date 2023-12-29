@@ -189,4 +189,18 @@
 - Can automate Software Deployments on Amazon EC2,AWS Fargate,AWS Lambda and On-premise servers.
 - Avoid downtime
 - Provides Autoscaling as well as Rollback support
+# Deploy with AWS CodeDeploy
+- AppSpec Configuration file
+    - Contains the command to run at each phase of deployment
+- Integrate with the existing software delivery toolchain using AWS CodeDeploy APIs.
+- Enable Scaling with Aws CodeDeploy
+- It Supports two type of deployment configurations
+    - In-Place : Update the application on existing instances(expect downtime)
+    - Blue Green : Gradually replace existing instance(blue) with Instances running new version(green)
+**Deployment Group or Autoscaling group**: This will help us to identify which server to place i.e to which set of E2 services code will be pushed
+ - logical identification of my indiviuall Ec2 instances.
+**Hand ON CODE DEPLOY**
+1. 
+
+  
 
