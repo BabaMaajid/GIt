@@ -202,9 +202,11 @@
    
 ## Hand ON CODE DEPLOY
 1.  Create EC2 with IAM Roles attached (S3) with tags assigned.
+    -  S3- to enable EC2 to read Source Code from S3 Bucket
+    -  SSM - Allow Deployment Group to Install /update Code Deploy Agent(Optional)
 2.  Create Application on code Deploy
 3.  Push code Revision to S3 Bucket
-4.  Create Deployment Group and Validate CodeDeploy Agent installed with SSM
+4.  Create Deployment Group and Validate CodeDeploy Agent installed with SSM(Which instance to deploy, How to deploy and which version to deploy)
 5.  Deploy the application to EC2 insatnces
   
 
