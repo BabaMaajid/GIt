@@ -254,4 +254,7 @@ It expects in Root Directory.
  - Create Pipeline with GUI or CLI.
 # Reasons to USe CodePipeline
 - CodePipeLine enables us to increase the speed and quality of the software updates by automating the software build,test and release process.
+# AWS CodePipeline Artifacts
+ - Each pipeline stage can create "artifacts"
+ - Artifacts are apssed stored in Amazon S3 and passed on to the next stage
 
