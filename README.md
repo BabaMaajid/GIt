@@ -208,5 +208,18 @@
 3.  Push code Revision to S3 Bucket
 4.  Create Deployment Group and Validate CodeDeploy Agent installed with SSM(Which instance to deploy, How to deploy and which version to deploy)
 5.  Deploy the application to EC2 insatnces
+# appspec.yml
+- Application Specification file to manage each deployement as a series of life cycle evnet hooks
+- Depending on Application compute platform APPSpec format will be decided.
+- Amazon ECS compute platfoem:
+    - JSON
+    - YAML
+    - Directly typed in console
+- AWS lambda Compute Platform
+    - JSON
+    - YAML
+    - Directly computed into console
+- EC2/on-premises compute paltform
+    - Always YAML format
   
 
