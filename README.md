@@ -221,5 +221,8 @@
     - Directly computed into console
 - EC2/on-premises compute paltform
     - Always YAML format
-  
+- The AppSpec file is a YAML formatted file or a json fromatted file used by AWS CodeDeploy to manage a deployment and decides:
+     - What must be installed onto instances
+     - What lifecycle event hook to run
+It expects in Root Directory.
 
