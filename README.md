@@ -251,5 +251,7 @@ It expects in Root Directory.
  - Combination of Continuous Integration and Continuous Delivery service for quicker and more reliable infrasture
  - Automaticall Buils, test and Deploys a user code whenever ther is a code change ,based on release process models
  - Integrates with AwS services like CodeCommit,S#,CodeDeploy,Elastic Beanstalk,OpsWorks and Lambda
- - Create Pipeline with GUI or CLI
+ - Create Pipeline with GUI or CLI.
+# Reasons to USe CodePipeline
+- CodePipeLine enables us to increase the speed and quality of the software updates by automating the software build,test and release process.
 
