@@ -1,3 +1,4 @@
+'''
 Check whether a given string is palindrome or not.
 Find Factorial value of the given Integer.
 Check whether the given number is Armstrong or not(An Armstrong number is one whose sum of digits raised to the power three equals the number itself. e.g 371).
@@ -27,3 +28,4 @@ Every close bracket has a corresponding open bracket of the same type.
 Write a program to implement a basic calculator that can perform addition, subtraction, multiplication, and division. The program should take input in the form of a string, e.g., "2 + 3", and return the result of the operation. 
 e.g Input: '3+2*5'
 Output: 13 
+'''
