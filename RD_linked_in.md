@@ -4,9 +4,10 @@
 | Employer Identification Algorithm         | Create an algorithm to identify relevant employer details (e.g., names and websites) from LinkedIn profiles. | This can be done by using scraping technique. |
 | Search Algorithm| Implement a search algorithm that automatically scans the websites of identified employers for available job postings. |This can be done using by scraping |
 |Filtering Mechanism| Integrate filters to identify specific job postings based on criteria such as job title, location, and required skills.|This can be done |
-|Notification System| Add a notification system to alert users when new, relevant job postings are found|This can be done |
-|User Authentication| Consider implementing a user authentication system to ensure user privacy and security|This can be done |
+|Notification System| Add a notification system to alert users when new, relevant job postings are found.|This can be done |
+|User Authentication| Consider implementing a user authentication system to ensure user privacy and security.|This can be done.|
 |Scalability|Design the tool with scalability in mind to handle a large number of search queries and users efficiently.|This can be done |
+|Updates and Maintenance|Establish a mechanism for regular updates and maintenance to ensure the tool remains functional despite any changes in the LinkedIn or website structures.|This can be done |
  
  
   
