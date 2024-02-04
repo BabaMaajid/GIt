@@ -1,4 +1,4 @@
-| Centered | Left-aligned | Right-aligned |
+|Experiment  | Data | Preprocessing | Model | Accuracy
 | :-------: | :----------  | ----------:   |
-| Cell 1    | Cell 2       | Cell 3        |
-| Cell 4    | Cell 5       | Cell 6        |
+| 1   |Unsegmented images      | Random flip, Rotation,Zoom,Height,Width data augmentation| Efficientnet | 83.0 
+| 2   | Unsegmented images       |  Random flip, Rotation,Zoom,Height,Width data augmentation| fine tunned Efficientnet | 92.0
